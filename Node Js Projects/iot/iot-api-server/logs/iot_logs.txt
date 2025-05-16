@@ -1,0 +1,4 @@
+2025-04-24T04:44:46.419Z - Temperature: 20, Humidity: 50, Device ID: samsung
+2025-04-24T04:54:44.629Z - Temperature: 20, Humidity: 40, Device ID: realme 6i
+2025-04-24T05:17:56.289Z - Temperature: 8, Humidity: 5, Device ID: realme 6i
+2025-05-14T15:45:08.992Z - Temperature: 10, Humidity: 14, Device ID: realme 6i

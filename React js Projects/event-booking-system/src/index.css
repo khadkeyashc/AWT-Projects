@@ -1,0 +1,117 @@
+/* src/index.css */
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #f8f9fa, #e3e6ea);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+/* Main App Container */
+.App {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 20px;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out;
+}
+
+h2 {
+  text-align: center;
+  color: #222;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+/* Booking Form */
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.booking-form input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  background: #f8f9fa;
+  transition: 0.3s ease;
+}
+
+.booking-form input:focus {
+  border-color: #007bff;
+  outline: none;
+  background: #ffffff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+}
+
+.booking-form button {
+  padding: 12px;
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.booking-form button:hover {
+  background: linear-gradient(135deg, #0056b3, #004095);
+}
+
+/* Events */
+.event {
+  background: #ffffff;
+  padding: 18px;
+  margin-top: 12px;
+  border-radius: 10px;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.12);
+  transition: transform 0.2s ease-in-out;
+}
+
+.event:hover {
+  transform: translateY(-2px);
+}
+
+.event h3 {
+  font-size: 19px;
+  color: #222;
+  font-weight: 600;
+}
+
+.event p {
+  font-size: 15px;
+  color: #555;
+}
+
+/* Event Button */
+.event button {
+  background: linear-gradient(135deg, #28a745, #218838);
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 15px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.event button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.event button:hover {
+  background: linear-gradient(135deg, #218838, #1e7e34);
+}
